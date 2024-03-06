@@ -1,8 +1,6 @@
 function Home() {
     return ( 
-        <>
-           Nardo 
-        </>
+        <p>Leonardo</p>
      );
 }
 

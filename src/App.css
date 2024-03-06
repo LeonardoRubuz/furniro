@@ -7,10 +7,13 @@ body{
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #ECF2FF;
 }
 
 #root{
+  height: 100%;
+  width: 100%;
+}
+.layout{
   height: 100%;
   width: 100%;
 }
