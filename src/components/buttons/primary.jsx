@@ -1,6 +1,6 @@
 function PrimaryButton() {
     return ( 
-        <button>
+        <button className="primary-btn">
             Achetez
         </button>
      );

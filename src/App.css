@@ -9,7 +9,8 @@ body{
   margin: 0;
   height: 100vh;
   width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden
+  
 }
 
 #root{
@@ -17,6 +18,22 @@ body{
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.primary-btn{
+  background-color: #B88E2F;
+  text-align: center;
+  border: none;
+  height: 3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight:700;
+  width: 8rem;
+
+}
+.primary-btn:hover{
+  cursor: pointer;
+  opacity: .65;
 }
 
 /* HEADER & CHILDREN*/
@@ -139,5 +156,14 @@ button{
 }
 
 .hero h4{
-  margin-top: 5rem;
+  margin-top: 2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0;
+}
+.hero h2{
+  font-size: 2.8rem;
+  line-height: .83;
+}
+.hero button{
+  margin-top: .8rem;
 }
