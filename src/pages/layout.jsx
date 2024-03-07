@@ -1,8 +1,12 @@
-function Layout({children}) {
+import { Outlet } from "react-router-dom";
+import Header from "../components/header";
+
+function Layout() {
     return ( 
-        <section className="layout">
-            {children}
-        </section>
+        <>
+            <Header />
+            <Outlet />
+        </>
      );
 }
 
