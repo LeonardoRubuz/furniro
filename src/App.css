@@ -95,3 +95,12 @@ footer div{
 footer div:last-child{
   height: 10%;
 }
+
+
+/* MAIN & CHILDREN */
+
+main {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,6 +1,10 @@
+import Hero from "../components/hero";
+
 function Home() {
     return ( 
-        <p>Leonardo</p>
+        <>
+            <Hero />
+        </>
      );
 }
 
