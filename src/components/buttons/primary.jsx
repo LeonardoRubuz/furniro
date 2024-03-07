@@ -1,7 +1,7 @@
-function PrimaryButton() {
+function PrimaryButton({text}) {
     return ( 
         <button className="primary-btn">
-            Achetez
+            {text}
         </button>
      );
 }
