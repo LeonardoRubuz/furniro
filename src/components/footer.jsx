@@ -1,7 +1,13 @@
 function Footer() {
     return ( 
         <footer>
-            element
+            <div>
+                Un
+            </div>
+            
+            <div>
+                <p>2024, Tous droits réservés</p>
+            </div>
         </footer>
      );
 }
