@@ -37,7 +37,7 @@ body{
 }
 
 h3{
-  font-size: 1.4rem
+  font-size: 1.4rem;
 }
 
 /* HEADER & CHILDREN*/
@@ -205,4 +205,31 @@ button{
   height: 90%;
   width: 85%;
   border-radius: 10px;
+}
+
+.suggested-products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.small-card{
+  height: 23rem;
+  border: 2px solid red;
+  width: 17rem;
+}
+
+.front-container{
+  height: 100%;
+  max-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .09rem;
+}
+
+.front-container div{
+  border: solid black 1px;
+  height: 85%;
 }
