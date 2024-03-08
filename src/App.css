@@ -218,6 +218,7 @@ button{
   height: 23rem;
   border: 2px solid red;
   width: 17rem;
+  background-color: #F4F5F7;
 }
 
 .front-container{
@@ -230,6 +231,45 @@ button{
 }
 
 .front-container div{
-  border: solid black 1px;
   height: 85%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.front-container h5{
+  font-size: 1.25em;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: 1rem;
+}
+#item-category{
+  font-size: .9em;
+  font-weight: 500;
+  color: #898989;
+  margin-left: 1rem;
+}
+.front-container p{
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+#badge{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.circular-badge{
+  background-color: #E97171;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  align-self: flex-end;
+  margin: 1rem 1rem auto auto ;
 }
