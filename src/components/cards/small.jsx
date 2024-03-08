@@ -9,6 +9,7 @@ function SmallCard() {
                 <span id="item-category">Stylish cafe chair</span>
                 <p>45$</p>
             </div>
+            <div className="blah">Leo</div>
         </div>
      );
 }

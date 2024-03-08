@@ -216,18 +216,20 @@ button{
 
 .small-card{
   height: 23rem;
-  border: 2px solid red;
   width: 17rem;
   background-color: #F4F5F7;
+  position: relative;
 }
 
 .front-container{
   height: 100%;
+  width: 100%;
   max-height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: .09rem;
+  position: absolute;
 }
 
 .front-container div{
@@ -272,4 +274,18 @@ button{
   border-radius: 50%;
   align-self: flex-end;
   margin: 1rem 1rem auto auto ;
+}
+
+.blah{
+  height: 100%;
+  width: 100%;
+  max-height: inherit;
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+  visibility: hidden;
+}
+
+.small-card:hover .blah {
+  visibility: visible;
 }
