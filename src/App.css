@@ -228,6 +228,18 @@ button{
   padding-bottom: 5rem;
 }
 
+
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+
+
+
+
 .small-card{
   height: 23rem;
   width: 17rem;

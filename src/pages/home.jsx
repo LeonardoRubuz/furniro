@@ -17,7 +17,14 @@ function Home() {
             </section>
             <section className="suggested-products">
                 <h3>Nos produits</h3>
-                <div>
+                <div className="products-grid">
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
                     <SmallCard />
                 </div>
             </section>
