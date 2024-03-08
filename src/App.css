@@ -122,8 +122,9 @@ footer div:last-child{
 
 main{
   border: solid black 1px;
-  height: 100%;
+  height: auto;
   width: 100%;
+  display: contents;
 }
 
 .hero{
@@ -177,6 +178,7 @@ button{
   flex-direction: column;
   align-items: center;
   height: auto;
+  max-height: inherit;
 }
 
 .category-cards h3{
@@ -193,15 +195,14 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   height: 28rem;
 
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .large-card img{
   height: 90%;
   width: 85%;
-  border: solid black 1px;
   border-radius: 10px;
 }
