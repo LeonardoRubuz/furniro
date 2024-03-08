@@ -1,3 +1,5 @@
+import SecondaryButton from "../buttons/secondary";
+
 function SmallCard() {
     return ( 
         <div className="small-card">
@@ -9,7 +11,9 @@ function SmallCard() {
                 <span id="item-category">Stylish cafe chair</span>
                 <p>45$</p>
             </div>
-            <div className="blah">Leo</div>
+            <div className="card-overlap">
+                <SecondaryButton text="Ajouter au panier" />
+            </div>
         </div>
      );
 }
