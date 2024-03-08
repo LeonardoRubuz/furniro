@@ -122,7 +122,7 @@ footer div:last-child{
 
 main{
   border: solid black 1px;
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
@@ -176,6 +176,7 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
 }
 
 .category-cards h3{
@@ -183,8 +184,24 @@ button{
 }
 
 .category-cards div{
-  border: solid black 1px;
   width: 80%;
   display: flex;
   gap: 1rem;
+}
+
+.large-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 28rem;
+
+  text-align: center;
+}
+
+.large-card img{
+  height: 90%;
+  width: 85%;
+  border: solid black 1px;
+  border-radius: 10px;
 }
