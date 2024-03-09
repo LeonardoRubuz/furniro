@@ -187,6 +187,21 @@ button{
   margin-top: .8rem;
 }
 
+
+.small-hero{
+  width: 100%;
+  min-height: 20rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
 .category-cards{
   display: flex;
   flex-direction: column;
@@ -235,10 +250,6 @@ button{
   column-gap: 2rem;
   row-gap: 2rem;
 }
-
-
-
-
 
 .small-card{
   height: 23rem;
@@ -327,3 +338,5 @@ button{
   max-width: 100vh;
   justify-content: space-between;
 }
+
+
