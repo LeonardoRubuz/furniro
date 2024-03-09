@@ -1,7 +1,12 @@
+import { useLocation } from "react-router-dom";
+
 function SmallHero() {
+    let location = useLocation()
     return ( 
         <section className="small-hero" style={{backgroundImage : 'url(/images/small-hero-bg.png)' }}>
-            <p>Boutique</p>
+            <p style={{textTransform : "capitalize", fontWeight : "bold"}}>
+                {location.pathname.slice(1)}
+            </p>
         </section>
      );
 }
