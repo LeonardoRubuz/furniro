@@ -1,3 +1,4 @@
+import SecondaryButton from "../components/buttons/secondary";
 import LargeCard from "../components/cards/large";
 import SmallCard from "../components/cards/small";
 import Hero from "../components/hero";
@@ -26,6 +27,18 @@ function Home() {
                     <SmallCard />
                     <SmallCard />
                     <SmallCard />
+                </div>
+            </section>
+            <button className="secondary-btn"
+            style={{alignSelf : "center", border : "1px solid B88E2F"}}>
+                Voir plus
+            </button>
+            <section className="inspirations">
+                <div className="left-container">
+                    hey
+                </div>
+                <div className="inspirations-slider">
+                    c'est
                 </div>
             </section>
         </>

@@ -317,3 +317,13 @@ button{
 .small-card:hover .card-overlap {
   visibility: visible;
 }
+
+.inspirations{
+  background-color: #FCF8F3;
+  display: flex;
+  align-items: center;
+  height: auto;
+  max-height: inherit;
+  max-width: 100vh;
+  justify-content: space-between;
+}
