@@ -9,6 +9,7 @@ import Cart from './pages/cart'
 import Checkout from './pages/checkout'
 import Contact from './pages/contact'
 import Layout from './pages/layout'
+import Product from './pages/product'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path : "boutique",
         element : <Shop />
+      },
+      {
+        path : "boutique/produit",
+        element : <Product />
       },
       {
         path : "panier",

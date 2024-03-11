@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import SmallCard from "../components/cards/small";
 import SmallHero from "../components/small-hero";
 
@@ -15,7 +16,6 @@ function Shop() {
                 <SmallCard />
                 <SmallCard />
             </div>
-            
         </>
      );
 }
