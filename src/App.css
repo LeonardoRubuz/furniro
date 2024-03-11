@@ -368,3 +368,32 @@ button{
 .breadcrumb > img{
   align-self: center;
 }
+
+
+.product-info{
+  /* border: solid #9F9F9F 1.6px; */
+  margin: 2em 5em;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  height: auto;
+  min-height: 35rem;
+}
+
+.product-info div{
+  border: solid black;
+  min-width: 45% ;
+}
+
+.product-info > div:first-child{
+  background-color: #F9F1E7;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50%;
+}
+
+.product-info > div:last-child{
+  /**/
+}
