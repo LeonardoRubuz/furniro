@@ -340,3 +340,31 @@ button{
 }
 
 
+.breadcrumb-container{
+  min-height: 5rem;
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.breadcrumb-container > span{
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.breadcrumb{
+  margin-left: 5rem;
+  align-self: center;
+  display: flex;
+  gap: 1.5rem;
+  font-size: .9em;
+  color: #9F9F9F;
+  width: auto;
+  border-right: solid #9F9F9F;
+}
+
+
+.breadcrumb > img{
+  align-self: center;
+}
