@@ -16,7 +16,11 @@ function Product() {
                     <img src="/images/asgaard-sofa-3.png" alt="" />
                 </div>
                 <div>
-                    <div></div>
+                    <div>
+                        <h1>Product Name</h1>
+                        <h3>Product price</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur cum placeat optio ad, blanditiis impedit.</p>
+                    </div>
                     <div></div>
                 </div>
             </section>

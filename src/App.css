@@ -380,9 +380,17 @@ button{
   min-height: 35rem;
 }
 
-.product-info div{
+.product-info > div{
   border: solid black;
   min-width: 45% ;
+}
+.product-info  h1{
+  font-size: 2em;
+  font-weight: 400;
+}
+.product-info  h3{
+  color: #9F9F9F;
+  font-weight: 400;
 }
 
 .product-info > div:first-child{
@@ -396,4 +404,7 @@ button{
 
 .product-info > div:last-child{
   /**/
+}
+.product-info > div:last-child > div > p{
+  width: 60%;
 }
