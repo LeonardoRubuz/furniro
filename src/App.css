@@ -14,7 +14,7 @@ body{
 }
 
 #root{
-  height: 100%;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -465,6 +465,11 @@ button{
   height: 4rem;
   min-height: 4rem;
   min-width: 6rem;
+}
+
+.quantity-setter span:first-child:hover,
+.quantity-setter span:last-child:hover{
+  cursor: pointer;
 }
 
 .product-details{

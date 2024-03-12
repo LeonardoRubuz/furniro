@@ -1,3 +1,4 @@
+import SmallCard from "../components/cards/small";
 import ColorSelector from "../components/color-selector";
 import SizeSelector from "../components/size-selector";
 import { useState } from "react";
@@ -47,6 +48,19 @@ function Product() {
                     </div>
                 </div>
             </section>
+            <section className="suggested-products">
+                <h3>Produits similaires</h3>
+                <div className="products-grid">
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
+                    <SmallCard />
+                </div>
+            </section>
+            <button className="secondary-btn"
+            style={{alignSelf : "center", display : "block", border : "1px solid #B88E2F", marginBottom : "5rem"}}>
+                Voir plus
+            </button>
         </>
      );
 }
