@@ -1,3 +1,4 @@
+import ColorSelector from "../components/color-selector";
 import SizeSelector from "../components/size-selector";
 
 function Product() {
@@ -23,6 +24,7 @@ function Product() {
                         <h3>Product price</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur cum placeat optio ad, blanditiis impedit.</p>
                         <SizeSelector />
+                        <ColorSelector />
                     </div>
                     <div></div>
                 </div>

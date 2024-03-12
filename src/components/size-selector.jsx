@@ -3,7 +3,7 @@ function SizeSelector() {
         <div className="selector">
             <h4>Size</h4>
             <div className="size-box">
-                <span className="active">XS</span>
+                <span>XS</span>
                 <span>L</span>
                 <span>XL</span>
             </div>
