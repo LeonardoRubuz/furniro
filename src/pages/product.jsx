@@ -1,3 +1,5 @@
+import SizeSelector from "../components/size-selector";
+
 function Product() {
     return ( 
         <>
@@ -20,6 +22,7 @@ function Product() {
                         <h1>Product Name</h1>
                         <h3>Product price</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur cum placeat optio ad, blanditiis impedit.</p>
+                        <SizeSelector />
                     </div>
                     <div></div>
                 </div>
