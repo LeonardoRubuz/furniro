@@ -475,3 +475,10 @@ button{
 .product-details{
   color: #9F9F9F;
 }
+
+.cart{
+  display: flex;
+  border: solid red;
+  margin: 5rem;
+}
+
