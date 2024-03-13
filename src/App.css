@@ -480,8 +480,40 @@ button{
 .cart{
   display: flex;
   justify-content: space-between;
-  border: solid red;
+  /* border: solid red; */
   margin: 5rem;
+}
+
+
+.cart > div:first-child{
+  width: 62rem;
+  overflow: auto;
+}
+
+.cart table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart thead{
+  background-color: #F9F1E7;
+  font-weight: 600;
+  height: 3rem;
+}
+
+.cart thead th{
+  width: 16.7%;
+  border: none;
+  position: sticky;
+  top: 0;
+}
+
+.cart tbody{
+  margin-top: 2rem;
+}
+
+.cart tbody tr > td:last-child {
+  align-content: center;
 }
 
 .cart-totals{
