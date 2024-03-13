@@ -476,9 +476,39 @@ button{
   color: #9F9F9F;
 }
 
+
 .cart{
   display: flex;
+  justify-content: space-between;
   border: solid red;
   margin: 5rem;
 }
 
+.cart-totals{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9F1E7;
+  width: 20rem;
+  max-width: 20rem;
+  padding: 1rem;
+  max-height: fit-content;
+}
+
+.cart-totals h5{
+  font-size: 2em;
+  margin-top: 0;
+}
+
+
+.cart-totals p{
+  text-align: left;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-totals p > span:first-child{
+  font-weight: 600;
+}

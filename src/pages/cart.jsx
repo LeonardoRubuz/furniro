@@ -12,11 +12,11 @@ function Cart() {
                     <h5>Total</h5>
                     <p>
                         <span>Sous-total </span>
-                        <span> 10.98 €</span>
+                        <span style={{color:"#898989"}}> 10.98 €</span>
                     </p>
                     <p>
                         <span>Total </span>
-                        <span> 10.98 €</span>
+                        <span style={{color:"#B88E2F", fontWeight:"600"}}> 10.98 €</span>
                     </p>
                     <div className="quantity-setter" style={{borderColor:"black"}}>
                         Payer
