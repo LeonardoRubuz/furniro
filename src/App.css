@@ -544,3 +544,29 @@ button{
 .cart-totals p > span:first-child{
   font-weight: 600;
 }
+
+.quality-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  min-height: 10rem;
+  background-color: #F9F1E7;
+}
+
+.quality-section > div{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.quality-section > div  div{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.quality-section h6{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #898989;
+}

@@ -1,3 +1,4 @@
+import QualitySection from "../components/quality-section";
 import SmallHero from "../components/small-hero";
 
 function Cart() {
@@ -86,6 +87,7 @@ function Cart() {
                     </div>
                 </div>
             </section>
+            <QualitySection />
         </>
      );
 }
